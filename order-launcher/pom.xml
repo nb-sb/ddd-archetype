@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nbsb</groupId>
-        <artifactId>ddd-order-example</artifactId>
+        <artifactId>order</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 <!--    <packaging>jar</packaging>-->
@@ -59,6 +59,10 @@
                     <!-- 指定编码格式 -->
                     <encoding>UTF-8</encoding>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-archetype-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
