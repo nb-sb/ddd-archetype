@@ -75,7 +75,11 @@
 
 <img src="./doc/image-20240423161654039.png" style="width:500px;margin: 10px;">
 
+当然你把上面内容都配置完毕后以后创建项目的时候就无需再次配置了，直接选择对应的pom文件即可
 
+<img src="./doc/image-20240423161654039.png" style="width:500px;margin: 10px;">
+
+<img src="./doc/image-20240423164350986.png" style="width:500px;margin: 10px;">
 
 ## ⚡ 反馈与交流
 
