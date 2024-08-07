@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.nbsb</groupId>
-    <artifactId>frame-archetype</artifactId>
+    <artifactId>ddd-archetype</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>scaffold-ddd</name>
@@ -22,14 +22,14 @@
     </parent>
     <!--声明子模块的依赖-->
     <modules>
-        <module>archetype-api</module>
-        <module>archetype-application</module>
-        <module>archetype-common</module>
-        <module>archetype-domain</module>
-        <module>archetype-infrastructure</module>
-        <module>archetype-rpc</module>
-        <module>archetype-trigger</module>
-        <module>archetype-launcher</module>
+        <module>ddd-archetype-api</module>
+        <module>ddd-archetype-application</module>
+        <module>ddd-archetype-common</module>
+        <module>ddd-archetype-domain</module>
+        <module>ddd-archetype-infrastructure</module>
+        <module>ddd-archetype-rpc</module>
+        <module>ddd-archetype-trigger</module>
+        <module>ddd-archetype-launcher</module>
     </modules>
     <dependencies>
         <dependency>
