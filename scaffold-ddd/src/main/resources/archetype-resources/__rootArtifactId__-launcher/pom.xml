@@ -65,7 +65,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.nbsb.Main</mainClass>
+<!--                    <mainClass>com.nbsb.Main</mainClass>-->
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
