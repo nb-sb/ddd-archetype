@@ -5,4 +5,5 @@ package com.nbsb.api;
 * @create: 2024/4/23 10:59
 */
 public interface IOrderService {
+
 }
