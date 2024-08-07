@@ -1,0 +1,34 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>${symbol_dollar}{groupId}</groupId>
+        <artifactId>${symbol_dollar}{rootArtifactId}</artifactId>
+        <version>${symbol_dollar}{version}</version>
+    </parent>
+    <packaging>jar</packaging>
+    <artifactId>${symbol_dollar}{artifactId}</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
+        <!--系统模块-->
+        <dependency>
+            <groupId>${symbol_dollar}{groupId}</groupId>
+            <artifactId>${symbol_dollar}{rootArtifactId}-domain</artifactId>
+            <version>${symbol_dollar}{version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${symbol_dollar}{groupId}</groupId>
+            <artifactId>${symbol_dollar}{rootArtifactId}-api</artifactId>
+            <version>${symbol_dollar}{version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
