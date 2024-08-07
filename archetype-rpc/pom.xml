@@ -5,25 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nbsb</groupId>
-        <artifactId>order</artifactId>
+        <artifactId>archetype</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-<!--    <packaging>jar</packaging>-->
-    <artifactId>order-application</artifactId>
+    <packaging>jar</packaging>
+    <artifactId>archetype-rpc</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <dependencies>
-        <!--系统模块-->
-        <dependency>
-            <groupId>com.nbsb</groupId>
-            <artifactId>order-infrastructure</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
 
 </project>

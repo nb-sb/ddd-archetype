@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nbsb</groupId>
-        <artifactId>order</artifactId>
+        <artifactId>archetype</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 <!--    <packaging>jar</packaging>-->
-    <artifactId>order-launcher</artifactId>
+    <artifactId>archetype-launcher</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -26,7 +26,7 @@
         <!--系统模块-->
         <dependency>
             <groupId>com.nbsb</groupId>
-            <artifactId>order-trigger</artifactId>
+            <artifactId>archetype-trigger</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

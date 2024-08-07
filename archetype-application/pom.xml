@@ -5,25 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nbsb</groupId>
-        <artifactId>order</artifactId>
+        <artifactId>archetype</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
-    <artifactId>order-trigger</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>order-trigger</name>
-    <packaging>jar</packaging>
+<!--    <packaging>jar</packaging>-->
+    <artifactId>archetype-application</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <!--系统模块-->
         <dependency>
             <groupId>com.nbsb</groupId>
-            <artifactId>order-application</artifactId>
+            <artifactId>archetype-infrastructure</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

@@ -3,11 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.nbsb</groupId>
-    <artifactId>order</artifactId>
+    <artifactId>archetype</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>ddd-order-example</name>
-    <description>ddd-order-example</description>
+    <name>scaffold-ddd</name>
+    <description>基于DDD+CQRS的快速构建项目脚手架</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,14 +22,14 @@
     </parent>
     <!--声明子模块的依赖-->
     <modules>
-        <module>order-api</module>
-        <module>order-application</module>
-        <module>order-common</module>
-        <module>order-domain</module>
-        <module>order-infrastructure</module>
-        <module>order-rpc</module>
-        <module>order-trigger</module>
-        <module>order-launcher</module>
+        <module>archetype-api</module>
+        <module>archetype-application</module>
+        <module>archetype-common</module>
+        <module>archetype-domain</module>
+        <module>archetype-infrastructure</module>
+        <module>archetype-rpc</module>
+        <module>archetype-trigger</module>
+        <module>archetype-launcher</module>
     </modules>
     <dependencies>
         <dependency>
@@ -57,6 +57,13 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+    <developers>
+        <developer>
+            <name>wang haonan</name>
+            <email>3500079813@qq.com</email>
+            <organizationUrl>https://github.com/nb-sb</organizationUrl>
+        </developer>
+    </developers>
     <build>
         <plugins>
             <plugin>

@@ -5,16 +5,29 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nbsb</groupId>
-        <artifactId>order</artifactId>
+        <artifactId>archetype</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <packaging>jar</packaging>
-    <artifactId>order-common</artifactId>
+    <artifactId>archetype-infrastructure</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <!--系统模块-->
+        <dependency>
+            <groupId>com.nbsb</groupId>
+            <artifactId>archetype-domain</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nbsb</groupId>
+            <artifactId>archetype-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
