@@ -33,3 +33,4 @@ build/
 .vscode/
 /scaffold-ddd/target/
 /target/generated-sources/archetype/target/
+/publish-maven/
