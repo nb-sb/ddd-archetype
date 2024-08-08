@@ -31,3 +31,4 @@ build/
 ### VS Code ###
 .vscode/
 /scaffold-ddd/target/
+/target/generated-sources/archetype/target/
