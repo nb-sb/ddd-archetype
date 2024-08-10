@@ -11,8 +11,10 @@ else
     echo "publish-maven 目录不存在。"
 fi
 mv ./target/generated-sources/archetype publish-maven
+rm -r ./target
 rm -r ./publish-maven/target
 rm -r ./publish-maven/pom.xml
 cp ./doc/publish-maven/README.md ./publish-maven/README.md
 cp ./doc/publish-maven/pom.xml ./publish-maven/pom.xml
 echo "注意升级时替换pom版本 <version>1.0</version>"
+
